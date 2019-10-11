@@ -6,8 +6,8 @@ $(document).ready(function() {
   const title2 = "Arbeiten in der Web-Entwicklung:";
   const description2 = "In unserem Ausflug in ein Unternehmen habe ich Einblick in die Teamstrukturen und Aufgabenbereiche von Entwicklern bekommen.";
 
-  const title3 = "Dies haben wir in Eigenarbeit geschaffen:";
-  const description3 = "Unter dem folgenden Link finden Sie mein Projekt.";
+  const title3 = "Dies haben ich in Eigenarbeit geschaffen:";
+  const description3 = "Unter dem folgenden Link finden Sie meine Projekte.";
 
   function setup(title, desc) {
     $(".slideMain").css("width", "400px");
@@ -29,7 +29,7 @@ $(document).ready(function() {
 
   $(".img3").hover(function() {
     setup(title3, description3);
-    $(".slideDesc").append("<p><a href='https://sirricc.github.io/landingPage/'>Mein Projekt</a></p>");
+    $(".slideDesc").append("<p><a href='https://sirricc.github.io/landingPage/'>Meine Projekte</a></p>");
   });
 
   $(".close").click(function() {
