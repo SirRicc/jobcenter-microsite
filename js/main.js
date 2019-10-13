@@ -1,12 +1,11 @@
 $(document).ready(function() {
 
-  const title1 = "Was ich gelernt habe:";
-  const description1 = "Ich habe gelernt unter welchen Voraussetzungen eine kommerzielle Website höhere Chancen hat in diversen Suchmaschinen ein höheres Rating zu bekommen um mit mehr Klicks mehr Einkommen zu generieren sowie grundlegende Kenntnisse die genötigt werden um einfache aber wirkende Seiten zu gestalten."
-  const title2 = "Arbeiten in der Web-Entwicklung:";
-  const description2 = "In unserem Ausflug in ein Unternehmen habe ich Einblick in die Teamstrukturen und Aufgabenbereiche von Entwicklern bekommen.";
-
-  const title3 = "Dies haben ich in Eigenarbeit geschaffen:";
-  const description3 = "Unter dem folgenden Link finden Sie meine Projekte.";
+  const title1 =        "Was ich gelernt habe:";
+  const description1 =  "Ich habe gelernt unter welchen Voraussetzungen eine kommerzielle Website höhere Chancen hat in diversen Suchmaschinen ein höheres Rating zu bekommen, um mit mehr Klicks mehr Einkommen zu generieren, sowie grundlegende Kenntnisse die genötigt werden um einfache aber wirkende Seiten zu gestalten."
+  const title2 =        "Arbeiten in der Web-Entwicklung:";
+  const description2 =  "In unserem Ausflug in ein Unternehmen habe ich Einblick in die Teamstrukturen und Aufgabenbereiche von Entwicklern bekommen.";
+  const title3 =        "Dies haben ich in Eigenarbeit geschaffen:";
+  const description3 =  "Unter dem folgenden Link finden Sie meine Projekte.";
 
   function setup(title, desc) {
     $(".slideMain").css("width", "33%");
