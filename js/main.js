@@ -29,7 +29,7 @@ $(document).ready(function() {
 
   $(".img3").hover(function() {
     setup(title3, description3);
-    $(".slideDesc").append("<p><a href='https://sirricc.github.io/landingPage/'>Meine Projekte</a></p>");
+    $(".slideDesc").append("<p><a href='https://sirricc.github.io/landing-page/'>Meine Projekte</a></p>");
   });
 
   $(".close").click(function() {
