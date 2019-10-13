@@ -12,7 +12,7 @@ body {
 }
                     /* main */
 .main {
-  width: 45%;
+  width: 33%;
   height: 100vh;
   background-color: rgba(225, 225, 225, 0.8);
   display: flex;
@@ -21,7 +21,7 @@ body {
 
 .text {
   color: black;
-  text-align: center;
+  text-align: left;
   padding:50px;
 }
 
@@ -35,7 +35,6 @@ h1 {
   margin: auto;
   padding-bottom: 25px;
   justify-content: space-around;
-
 }
 
 .icons img {
@@ -76,23 +75,3 @@ h1 {
   max-width: 5px;
   display: none;
 }
-
-/* .close img {
-  display: hidden;
-} */
-
-
-
-
-
-/* .slideMain:hover {
-  width: 500px;
-} */
-
-                  /* sandbox */
-
-/* .main:hover {
-  .slideMain {
-    width: 150px;
-  }
-} */
